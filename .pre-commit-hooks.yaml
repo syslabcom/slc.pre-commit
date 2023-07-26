@@ -1,0 +1,5 @@
+- id: check-po
+  name: check syntax of po files
+  entry: check-po
+  language: python
+  files: \.po
