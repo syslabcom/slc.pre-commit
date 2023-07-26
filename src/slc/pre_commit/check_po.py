@@ -1,6 +1,7 @@
-import argparse
+from pythongettext.msgfmt import Msgfmt
+from pythongettext.msgfmt import PoSyntaxError
 
-from pythongettext.msgfmt import Msgfmt, PoSyntaxError
+import argparse
 
 
 def check_syntax(filename):
